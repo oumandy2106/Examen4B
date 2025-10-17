@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web para demostrar mis conocimientos en HTML y desarrollo web.">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class = "titulo">
+        <h1>Formulario</h1>
+        <h3 class="mensaje">Completa el formulario</h3>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="Index.html">Inicio</a>
+            </li>
+        </ul>
+    </nav>  
+    <main>
+        <form>
+            <section class="contenido">
+                <h2>Contenido</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="0" max="99">
+                <br>
+                <label for="pais">Pais</label>
+                <input type="text" id="pais" name="pais">
+            </section>
+            <button type="button" class="btnGuardar">Guardar</button>
+        </form>
+    
+    </main>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
